@@ -1,0 +1,117 @@
+.bannerImg{
+    background-image: url(../Photos/possibleBanner.jpeg); 
+    height: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    z-index: -1;
+}
+
+.videoContent{
+    margin-bottom: 0%;
+    /* display: flex; */
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+   
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.profileContent{
+    width: 400px;
+    height: 550px;
+    /* border: 1px solid black; */
+    margin-top: -100px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.profilePic{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(235, 232, 232);
+    border-radius: 50%;
+    background-image: url(../Photos/redPandaLogo.svg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+    margin-bottom: 20px;
+}
+
+.videoH3{
+    margin-bottom: 20px;
+}
+
+
+.videoDescription{
+    margin-top: 30px;
+}
+
+.h6description{
+    padding-top: 10px;
+}
+
+.footer{
+    display: flex;
+    /* margin-top: 100px; */
+    height: 400px;
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+}
+
+.footerContent{
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    /* display: flex !important; */
+   
+}
+
+.socialMediaContent{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.socialLinks{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.socialIcons{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+a:hover{
+    background-color: white;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ead7c3;
+    border: 3px solid #fbf6ef;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    color: #fbf6ef;
+}
